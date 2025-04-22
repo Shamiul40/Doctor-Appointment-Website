@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is useState and how does it work in React?",
+    "answer": "useState is a React Hook that lets you add state to functional components. It returns an array with two elements: the current state value and a function to update it. When the state updates, the component re-renders. Example: const [count, setCount] = useState(0);",
+    "date": "2023-11-12"
+  },
+  {
+    "question": "What is the purpose of useEffect in React?",
+    "answer": "useEffect is a React Hook that performs side effects in functional components. It replaces lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount. It runs after render and can handle data fetching, subscriptions, or manually changing the DOM.",
+    "date": "2024-03-08"
+  },
+  {
+    "question": "How does virtual DOM work in React?",
+    "answer": "React's virtual DOM is a lightweight copy of the real DOM. When state changes, React creates a new virtual DOM tree, compares it with the previous one (diffing), then efficiently updates only the changed parts in the real DOM (reconciliation), minimizing expensive DOM operations.",
+    "date": "2023-09-15"
+  },
+  {
+    "question": "What are React hooks?",
+    "answer": "Hooks are functions that let you 'hook into' React state and lifecycle features from function components. They were introduced in React 16.8 to use state and other React features without writing classes. Common hooks include useState, useEffect, useContext, useReducer, and useRef.",
+    "date": "2024-01-22"
+  },
+  {
+    "question": "Explain the difference between props and state.",
+    "answer": "Props (properties) are read-only data passed from parent to child components. State is mutable data managed within a component. Props are immutable (can't be changed by child), while state is changed using setState or useState updater functions, triggering re-renders.",
+    "date": "2023-12-05"
+  },
+  {
+    "question": "What is JSX in React?",
+    "answer": "JSX is a syntax extension for JavaScript that allows writing HTML-like code in React. It gets transpiled to React.createElement() calls. JSX makes code more readable and provides syntactic sugar for creating React elements. Example: const element = <h1>Hello</h1>;",
+    "date": "2024-02-18"
+  },
+  {
+    "question": "How to handle events in React?",
+    "answer": "React events are handled using camelCase syntax (onClick not onclick). You pass a function as the event handler rather than a string. To prevent default behavior, you must call e.preventDefault() explicitly. Event handlers have access to synthetic event objects that wrap native events.",
+    "date": "2023-10-30"
+  },
+  {
+    "question": "What is React context?",
+    "answer": "Context provides a way to pass data through the component tree without manually passing props at every level. It's useful for global data like themes, user auth. Created with React.createContext(), it consists of a Provider and Consumer (or useContext hook).",
+    "date": "2024-04-10"
+  },
+  {
+    "question": "How to optimize React performance?",
+    "answer": "Key optimizations: 1) Use React.memo for component memoization, 2) useCallback/useMemo to prevent unnecessary re-renders, 3) Code splitting with React.lazy, 4) Virtualization for long lists, 5) Avoid inline function definitions in render, 6) Use production builds.",
+    "date": "2023-08-27"
+  },
+  {
+    "question": "What are React fragments?",
+    "answer": "Fragments let you group multiple children without adding extra DOM nodes. Syntax: <React.Fragment> or shorthand <>. Useful when a component needs to return multiple adjacent elements but must have a single parent. Fragments don't appear in the DOM tree.",
+    "date": "2024-03-25"
+  },
+  {
+    "question": "Explain React component lifecycle methods.",
+    "answer": "Class components have lifecycle methods: 1) Mounting (constructor, render, componentDidMount), 2) Updating (shouldComponentUpdate, render, componentDidUpdate), 3) Unmounting (componentWillUnmount). In functional components, useEffect hook replaces most lifecycle methods.",
+    "date": "2023-07-14"
+  },
+  {
+    "question": "What is Redux and how does it work with React?",
+    "answer": "Redux is a predictable state container for JavaScript apps. It works with React via react-redux library. Key concepts: 1) Single store holding app state, 2) Actions describe changes, 3) Reducers specify how state changes, 4) Components connect to store using useSelector/useDispatch hooks or connect HOC.",
+    "date": "2024-05-03"
+  }
+]

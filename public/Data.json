@@ -1,0 +1,147 @@
+
+[
+  {
+    "id": 1,
+    "name": "Dr. Cameron Williamson",
+    "qualifications": "MBBS, MD – General Medicine, DNB",
+    "registration_number": "BD 12451254",
+    "image_url": "https://i.ibb.co.com/Y77Dx79v/1.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Sunday", "Monday", "Thursday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "2+ Years Experience"]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Olivia Martin",
+    "qualifications": "MBBS, MS – ENT, DNB",
+    "registration_number": "BD 12451255",
+    "image_url": "https://i.ibb.co.com/B5ZxD630/2.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Sunday", "Tuesday", "Wednesday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "4+ Years Experience"]
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ethan Brown",
+    "qualifications": "MBBS, MD – Pediatrics",
+    "registration_number": "BD 12451256",
+    "image_url": "https://i.ibb.co.com/Ldgq4V4t/3.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Monday", "Wednesday", "Saturday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "5+ Years Experience"]
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sophia Patel",
+    "qualifications": "MBBS, MD – Dermatology",
+    "registration_number": "BD 12451257",
+    "image_url": "https://i.ibb.co.com/wNBPBgBx/4.webp",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Tuesday", "Thursday", "Friday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "10+ Years Experience"]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Liam Walker",
+    "qualifications": "MBBS, MD – Internal Medicine",
+    "registration_number": "BD 12451258",
+    "image_url": "https://i.ibb.co.com/BVgSjnRP/5.webp",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Sunday", "Wednesday", "Friday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "10+ Years Experience"]
+  },
+  {
+    "id": 6,
+    "name": "Dr. Ava Thompson",
+    "qualifications": "MBBS, MD – Neurology",
+    "registration_number": "BD 12451259",
+    "image_url": "https://i.ibb.co.com/bgsSh2y4/6.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Monday", "Tuesday", "Saturday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "7+ Years Experience"]
+  },
+  {
+    "id": 7,
+    "name": "Dr. Noah Singh",
+    "qualifications": "MBBS, MS – Orthopedics",
+    "registration_number": "BD 12451260",
+    "image_url": "https://i.ibb.co.com/nqWLKL9R/7.webp",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Wednesday", "Thursday", "Saturday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "6+ Years Experience"]
+  },
+  {
+    "id": 8,
+    "name": "Dr. Isabella Chen",
+    "qualifications": "MBBS, MD – Psychiatry",
+    "registration_number": "BD 12451261",
+    "image_url": "https://i.ibb.co.com/LdDkjWtB/8.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Monday", "Thursday", "Friday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "6+ Years Experience"]
+  },
+  {
+    "id": 9,
+    "name": "Dr. James Anderson",
+    "qualifications": "MBBS, MD – Cardiology",
+    "registration_number": "BD 12451262",
+    "image_url": "https://i.ibb.co.com/67tNcJRr/9.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Tuesday", "Friday", "Saturday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "7+ Years Experience"]
+  },
+  {
+    "id": 10,
+    "name": "Dr. Emily Garcia",
+    "qualifications": "MBBS, MD – Pulmonology",
+    "registration_number": "BD 12451263",
+    "image_url": "https://i.ibb.co.com/38n6Jgr/10.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Sunday", "Tuesday", "Thursday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "8+ Years Experience"]
+  },
+  {
+    "id": 11,
+    "name": "Dr. Benjamin Lee",
+    "qualifications": "MBBS, MS – Urology",
+    "registration_number": "BD 12451264",
+    "image_url": "https://i.ibb.co.com/qYYLpvCW/11.webp",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "10+ Years Experience"]
+  },
+  {
+    "id": 12,
+    "name": "Dr. Mia Roberts",
+    "qualifications": "MBBS, MD – Endocrinology",
+    "registration_number": "BD 12451265",
+    "image_url": "https://i.ibb.co.com/LXqHJmbc/12.jpg",
+    "details_link": "#",
+    "working_at": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "consultation_fee": "Taka 273 (Incl. VAT)",
+    "status_badges": ["Available", "12+ Years Experience"]
+  }
+]
