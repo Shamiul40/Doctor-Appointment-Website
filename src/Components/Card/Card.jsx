@@ -33,7 +33,7 @@ const Card = ({ singleData }) => {
         <p className="text-sm text-[#888]">{registration_number}</p>
         <div className="flex flex-wrap justify-start">
           <Link to={`/doctorDetails/${id}`}>
-            <button className="border border-[#176AE5] py-2 rounded-3xl px-28  text-[#176AE5] hover:bg-[#176AE5] hover:text-white">
+            <button className="border border-[#176AE5] py-1 md:py-2 rounded-3xl px-14 md:px-24  text-[#176AE5] hover:bg-[#176AE5] hover:text-white">
               View Details
             </button>
           </Link>

@@ -14,7 +14,7 @@ const CardContainer = ({ Data }) => {
   }, [Data, showAll]);
 
   return (
-    <div className="my-16">
+    <div className="my-10">
       <div>
         <h1 className="text-center text-3xl font-bold ">Our Best Doctors</h1>
         <p className="text-center my-3 text-[#727272] text-sm">
@@ -24,7 +24,7 @@ const CardContainer = ({ Data }) => {
           and receive quality care you can trust.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-6 my-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
         {displayDoctor.map((singleData) => (
           <Card key={singleData.id} singleData={singleData}></Card>
         ))}

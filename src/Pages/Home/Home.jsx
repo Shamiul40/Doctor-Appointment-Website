@@ -7,11 +7,13 @@ import SimpleMedicalStats from "../../Components/SimpleMedicalStates/SimpleMedic
 const Home = () => {
   const Data = useLoaderData();
 
-
   const [displayDoctor, setDisplayDoctor] = useState(Data);
 
   const handleSubmit = (e, text) => {
     e.preventDefault();
+
+    if (text === "") return setDisplayDoctor(Data);
+
     const searchedDoctor = displayDoctor.filter(
       (doc) =>
         doc.name.toLowerCase().includes(text) ||
@@ -24,7 +26,7 @@ const Home = () => {
   return (
     <div>
       <Hero handleSubmit={handleSubmit}></Hero>
-      <CardContainer Data={Data}></CardContainer>
+      <CardContainer Data={displayDoctor} ></CardContainer>
       <SimpleMedicalStats></SimpleMedicalStats>
     </div>
   );

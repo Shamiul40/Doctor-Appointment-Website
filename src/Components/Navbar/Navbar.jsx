@@ -29,43 +29,43 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="/">Home</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="myBookings">My-Bookings</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="myBookings">My-Bookings</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="blogs" >Blogs</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="blogs" >Blogs</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="contactUs">Contact Us</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="contactUs">Contact Us</NavLink>
           </li>
           </ul>
         </div>
 
-        <NavLink className="flex justify-center items-center gap-2 text-2xl font-bold">
-          <img className="w-8" src={logoImg} alt="" />
+        <NavLink className="flex justify-center items-center gap-1 md:gap-2 text-xl md:text-2xl font-bold">
+          <img className="w-6 md:w-8" src={logoImg} alt="" />
           Phudu
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="/">Home</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="myBookings">My-Bookings</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="myBookings">My-Bookings</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="blogs" >Blogs</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="blogs" >Blogs</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=>isActive? "underline underline-offset-4 decoration-[#176AE5] " : ""} to="contactUs">Contact Us</NavLink>
+            <NavLink className={({isActive})=>isActive? "underline underline-offset-8 decoration-[#176AE5] " : ""} to="contactUs">Contact Us</NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#176AE5] text-white rounded-4xl">Emergyncy</a>
+        <a className="text-xs py-1 md:py-2 md:px-8 md:text-sm px-3 rounded-4xl cursor-pointer border border-[#176AE5]  text-[#176AE5] hover:bg-[#176AE5] hover:text-white">Emergyncy</a>
       </div>
     </div>
   );

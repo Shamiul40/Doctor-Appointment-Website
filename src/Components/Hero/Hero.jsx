@@ -3,6 +3,7 @@ import heroImg1 from "../../assets/banner-img-1.png";
 
 const Hero = ({ handleSubmit }) => {
   const [searcText, setSearchText] = useState("");
+  const [searched, setSearched] = useState(false)
 
   return (
     <div className=" shadow-[0_0_30px_5px_rgba(0,0,0,0.1)]  my-12 p-8 backdrop-blur-sm rounded-3xl border-4 border-white outline-3 outline-offset-1 outline-white  ">
@@ -20,8 +21,10 @@ const Hero = ({ handleSubmit }) => {
           onSubmit={(e) => {
             handleSubmit(e, searcText);
             setSearchText("");
+            setSearched(true)
+
           }}
-          className="flex justify-center items-center gap-8 mx-auto"
+          className="flex justify-center items-center gap-4 mx-auto"
         >
           <input
             onChange={(e) => setSearchText(e.target.value)}
@@ -30,16 +33,18 @@ const Hero = ({ handleSubmit }) => {
             type="text"
             className="w-3/7 focus:outline-none shadow-lg rounded-3xl h-9 text-xs px-4 border border-gray-300 bg-white "
           />
-          <button className="btn bg-[#176AE5] text-white rounded-4xl">
-            Search Now
+          <button className=" px-4 md:px-6 py-2 text-sm md:text-sm rounded-2xl md:rounded-4xl border border-[#176AE5]  text-[#176AE5] hover:bg-[#176AE5] hover:text-white">
+            Search
           </button>
         </form>
       </div>
 
-      <div className="my-6 flex justify-center items-center gap-6">
-        <img className="w-130" src={heroImg1} alt="" />
-        <img className="w-130" src={heroImg1} alt="" />
-      </div>
+     {
+      !searched &&  <div  className="my-6 flex justify-center items-center flex-col md:flex-row gap-6">
+      <img className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-130 xl:max-w-xl h-auto" src={heroImg1} alt="" />
+      <img className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-130 xl:max-w-xl h-auto hidden md:block " src={heroImg1} alt="" />
+    </div>
+     }
     </div>
   );
 };

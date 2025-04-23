@@ -20,7 +20,7 @@ const SimpleMedicalStats = () => {
   }, []);
 
   return (
-    <div className="text-center p-6">
+    <div className="text-center ">
       <h1 className="text-3xl font-bold mb-4">
         We Provide Best Medical Services
       </h1>
@@ -31,7 +31,7 @@ const SimpleMedicalStats = () => {
 
       <div className="w-20 h-1 bg-gray-300 mx-auto mb-10"></div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        <div className="bg-white shadow-2xl p-8">
+        <div className="bg-white shadow-lg p-8">
           <img className="mx-auto py-3" src={img1} alt="" />
           <div className="text-4xl font-bold text-blue-500 mb-2">
             <CountUp
@@ -45,7 +45,7 @@ const SimpleMedicalStats = () => {
           <p className="text-gray-600">Total Doctors</p>
         </div>
 
-        <div className="bg-white shadow-2xl p-8">
+        <div className="bg-white shadow-lg p-8">
           <img className="mx-auto py-3" src={img2} alt="" />
           <div className="text-4xl font-bold text-blue-500 mb-2">
             <CountUp
@@ -59,7 +59,7 @@ const SimpleMedicalStats = () => {
           <p className="text-gray-600">Total Reviews</p>
         </div>
 
-        <div className="bg-white shadow-2xl p-8">
+        <div className="bg-white shadow-lg p-8">
           <img className="mx-auto py-3" src={img3} alt="" />
           <div className="text-4xl font-bold text-blue-500 mb-2">
             <CountUp
@@ -73,7 +73,7 @@ const SimpleMedicalStats = () => {
           <p className="text-gray-600">Patients</p>
         </div>
 
-        <div className="bg-white shadow-2xl p-8">
+        <div className="bg-white shadow-lg p-8">
           <img className="mx-auto py-3" src={img4} alt="" />
           <div className="text-4xl font-bold text-blue-500 mb-2">
             <CountUp

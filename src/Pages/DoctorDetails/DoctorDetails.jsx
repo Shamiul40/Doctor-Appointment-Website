@@ -42,7 +42,7 @@ const DoctorDetails = () => {
           turpis imperdiet mattis donec dignissim volutpat.
         </p>
       </div>
-      <div className="card card-side bg-base-100 shadow-lg p-4">
+      <div className=" card card-side bg-base-100 shadow-lg p-4">
         <figure>
           <img className="rounded-lg" src={image_url} alt="Image" />
         </figure>
