@@ -23,7 +23,7 @@ A simple and user-friendly doctor apointment website built using react.
 
 ## 📷 Screenshot
 
-![Homepage Screenshot](./)
+![Homepage Screenshot](./Screenshot.png)
 
 ---
 
